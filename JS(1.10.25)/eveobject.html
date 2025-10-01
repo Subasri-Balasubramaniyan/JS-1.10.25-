@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="infoBtn">Click for Event Info</button>
+
+<script>
+  document.getElementById("infoBtn").addEventListener("click", function (event) {
+    console.log("Event type:", event.type);   // "click"
+    console.log("Target element:", event.target); // <button>
+  });
+</script>
+
+</body>
+</html>
